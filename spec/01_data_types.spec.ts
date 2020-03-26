@@ -38,7 +38,7 @@ describe('declaring variables in typescript', () => {
 
             const subtract: MathOperation = function (a: number, b: number) {
                 return a - b;
-            };
+            }; // hi!
 
         });
 
