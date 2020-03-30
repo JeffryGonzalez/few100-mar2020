@@ -1,10 +1,13 @@
 import { Employee, VacationRequest, DAYS_OF_PTO as pto } from '../src/hr';
 
+import * as fromHr from '../src/hr';
 
 describe('using classes', () => {
     describe('creating instances', () => {
         it('demo', () => {
             expect(pto).toBe(23);
+            const jim = new fromHr.Employee(30_000, 'James', 'Keele');
+
         });
         it('using constructors', () => {
             const bob = new Employee(45_000, 'Robert', 'Jones');
